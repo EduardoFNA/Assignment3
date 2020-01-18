@@ -1,0 +1,131 @@
+body {
+    font-size: 16px;
+    color: white;
+    background-color: rgb(149, 28, 28);
+    /*font-family: 'Tangerine', cursive;*/
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: black;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Tangerine', cursive;
+}
+
+.navbar-brand {
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar-brand a h1 {
+    /* Restaurant name */
+    color: rgb(149, 28, 28);
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(214, 162, 162);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: rgb(149, 28, 28);
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#nav-list a:hover {
+    background: rgb(214, 162, 162);
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1.5px solid rgb(149, 28, 28);
+}
+
+.navbar-header button.navbar-toggle {
+    margin: 15px;
+}
+
+.navbar-header button.navbar-toggle:hover,
+.navbar-header button.navbar-toggle:focus {
+    background: rgb(214, 162, 162);
+}
+
+
+/* END HEADER */
+
+
+/* HOME PAGE*/
+
+#HomePageTitle {
+    margin: 35px;
+}
+
+#HomePageTitle h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0px;
+}
+
+.menuCard {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 1vw;
+}
+
+.menuTitle {
+    background-color: black;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 2px solid black;
+    color: rgb(149, 28, 28);
+}
+
+.menuTitle h3 {
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0px
+}
+
+.menuDescription {
+    padding: 15px;
+    margin: 0px;
+    text-align: justify;
+}
+
+.menuUpIcon div {
+    background-color: black;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+}
+
+.menuUpIcon span {
+    color: rgb(149, 28, 28);
+    font-size: 1.5em;
+}
+
+
+/* END HOME PAGE*/
