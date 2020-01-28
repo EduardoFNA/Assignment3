@@ -4,4 +4,4 @@ Third Assignment of the HTML, CSS, and Javascript for Web Developers course from
 Basic responsive home page design with Boostrap 4.
 
 Link to Assignment:
- * https://eduardofna.github.io/Assignment3/
+* https://eduardofna.github.io/Assignment3/
